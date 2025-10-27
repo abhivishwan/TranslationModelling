@@ -1,6 +1,6 @@
 %%
 figure(2); clf;
-set(gcf, 'position', [200 800 468*1.5 330])
+set(gcf, 'position', [200 600 468*1.5 330])
 ax = easy_gridOfEqualFigures([0.17 0.09], [0.32 0.03]);
 landmarkNavigation(ax)
 % saveFigurePdf(gcf, '~/Desktop/LandmarkNavigation')
@@ -63,7 +63,7 @@ set(gca, 'ytick', [1:5 7], ...
     'yticklabel', ...
     {'true target, $\alpha$' 
     'target estimate, $X$'
-    'true heading, $\theta_t$'
+    'true distance, $D_t$'
     'initial estimate, $s_{t_f}$'
     'feedback, $f$'
     'combined estimate, $\hat{m}_t$'}, ...
@@ -71,7 +71,7 @@ set(gca, 'ytick', [1:5 7], ...
     'tickdir', 'out')
 
 grid on
-xlabel('heading distance after feedback is turned off', 'interpreter', 'latex')
+xlabel('Distance after feedback is turned off', 'interpreter', 'latex')
 
 
 end

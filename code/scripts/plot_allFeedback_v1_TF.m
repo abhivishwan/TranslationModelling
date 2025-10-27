@@ -1,6 +1,6 @@
 function s = plot_allFeedback_v1_TF( ax, model_flag, X, target,  headAngle_t, feedback, headAngle_feedback )
 
-global AZred AZblue
+global AZred AZblue AZcactus
 
 axes(ax); hold on;
 
@@ -33,4 +33,4 @@ switch model_flag
         return
 end
 
-s = plot(feedback-headAngle_feedback, mean_error, 'color', AZred);
+s = plot(feedback-headAngle_feedback, mean_error, 'color', AZcactus);
