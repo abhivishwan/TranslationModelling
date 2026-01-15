@@ -1,6 +1,6 @@
-% Code for Combination and competition between path integration and landmark navigation in the estimation of heading direction
-% Authors: Robert C. Wilson & Sevan K. Harootonian
-% 2021
+% Code for Bayesian cue combination best predicts straight-line distance estimation with translated visual landmarks 
+% Authors: Robert C. Wilson & Abhilasha Vishwanath
+% 2025
 %% directories
 clear
 % fundir = '/Users/bob/Work/Projects/arne/headDirection/ARNE_HeadDirectionCode/';
